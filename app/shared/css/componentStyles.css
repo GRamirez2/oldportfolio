@@ -2,71 +2,90 @@
 
 html,
 #app {
-    margin:0;
-    padding:0;
     height: 100%;
 }
 
-
-
 .container {
-    height: 100%;
+    /*this at 100% fixes it*/
+    /*height: auto;*/
+    /*position: relative;*/
+    /*max-width: 960px;*/
+    padding-top: 2%;
+}
+
+.centerContainer{
+    /*this at 100% fixes it*/
+    height: auto;
     position: relative;
     max-width: 960px;
     padding-top: 2%;
 }
 
+/*.navBarRow1{
+    
+}*/
+.navBarRow2{
+    
+    text-align: center;
+}
+.navBarRow3{
+    
+    text-align: center;
+}
 
 
 .bold{
     font-family: 'Nunito Sans', sans-serif;
     color: dimgrey;
     font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    padding-right: 0;
+    text-align: center;
+    font-size: 4.5rem;
+    text-decoration: none;
 }
-.bold:hover{
+.bold:hover, .active{
     color: black;
     cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+}
+
+.bold >.script {
+    font-size: 1.5rem;
     
 }
 
 .nav__button{
     color: dimgrey;
-    float: right;
-    margin-top: 1.5%;
-    margin-left: 0;
-    padding-left: 12%;
     text-transform: uppercase;
 }
 
-.nav__button:link{
-    color:dimgrey;
-}
+
 
 .nav__button:hover{
     color: black;
     font-weight: bold;
-    /*background-color: lightgrey;*/
-    zoom: 110%;
+    background-color: white;
+    /*zoom: 110%;*/
 }
 
-Link>.nav__button:active{
-    color: black;
-    /*not working!!!*/
+.portBox>img{
+    width:100%;
+    height: auto;
 }
+
+
 
 .footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
+  /*width: 100%;*/
   padding: 1rem;
   color: dimgrey;
   height: 20px;
   font-size: 80%;
+  margin-top: 40px;
   border-top: 1px solid lightgrey;
 
 }
@@ -82,10 +101,21 @@ Link>.nav__button:active{
 .imgFooter{
     height:20px;
     padding-left: 5px;
+    float: right;
 }
 
-.portBox{
-    background-color: lightgrey;
-    height: 100px;
+.imgFooter:hover{
+    cursor: pointer;
+}
 
+.topSpace{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.contactMe{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: justify;
+    margin-left: 15%;
 }
