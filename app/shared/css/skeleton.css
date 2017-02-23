@@ -403,6 +403,8 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/*animate fadeInDown*/.animated{animation-duration:.5s;animation-fill-mode:both}.animated.infinite{animation-iteration-count:infinite}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-20%,0)}to{opacity:1;transform:none}}.fadeInDown{animation-name:fadeInDown}@keyframes fadeOutDown{from{opacity:1}to{opacity:0;transform:translate3d(0,20%,0)}}.fadeOutDown{animation-name:fadeOutDown}.fadeOutDownBig{animation-name:fadeOutDownBig}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
