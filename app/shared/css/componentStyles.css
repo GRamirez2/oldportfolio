@@ -19,7 +19,7 @@ html,
     height: auto;
     position: relative;
     max-width: 960px;
-    padding-top: 2%;
+    /*padding-top: 2%;*/
 }
 
 .navBarRow2{
@@ -31,6 +31,7 @@ html,
     
     text-align: center;
 }
+
 
 .titles{
     border-bottom: 1px solid #505050;
@@ -171,6 +172,12 @@ html,
     float: right;
 }
 
+.imgContact{
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    max-width: 75%;
+}
 .imgFooter{
     height:20px;
     padding-left: 5px;
@@ -182,16 +189,24 @@ html,
 }
 
 .topSpace{
-    padding-top: 20px;
-    padding-bottom: 30px;
+    /*padding-top: 20px;*/
+    padding-bottom: 10px;
     text-align: justify;
     font-size: 1.8rem;
 }
 .contactMe{
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     padding-bottom: 30px;
     text-align: justify;
     margin-left: 15%;
+    margin-bottom: 0;
+}
+
+.aboutText{
+    padding-top: 5%;
+}
+.aboutText::first-letter{
+    font-size: 200%;
 }
 
 
@@ -214,11 +229,24 @@ html,
     }
     .navBarRow2{
     font-size: 2rem;
-}
+    }
+    .emailBox{
+    padding-top: 10%;
+    }
+    .contactMe{
+    margin-left: 0;
+    }
+    .imgContact{
+        display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 850px) {
     .titles {
         display: none;
     }
+
 }
