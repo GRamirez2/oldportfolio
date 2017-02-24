@@ -110,7 +110,7 @@ html,
     font-weight: bold;
     font-size: 3rem;
     width:100%;
-    text-align:center;
+    text-align:left;
 }
 .bold3:hover{
     color: #404040;
@@ -124,7 +124,7 @@ html,
     font-size: 2.4rem;
     width:100%;
     padding-top: 5%;
-    text-align:center;
+    text-align:left;
     text-decoration: none;
     
 }
